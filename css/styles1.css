@@ -1,0 +1,33 @@
+body{
+    background-color: cadetblue;
+}
+
+form{
+    margin: 200px auto;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 20px auto;
+    font-size: 1.6rem;
+}
+
+textarea{
+    background-color: azure;
+    color: black;
+    font-size: 1.3rem;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    background-color: coral;
+}
+
+@media screen and (max-width: 60px) {
+    textarea{
+        width: 400px;
+    }
+}
